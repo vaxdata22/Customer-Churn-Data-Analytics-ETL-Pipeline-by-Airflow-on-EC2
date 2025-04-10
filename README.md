@@ -66,7 +66,9 @@ Two buckets would be needed for this project:
 ![img4](screenshots/img4.png)
 <br><br>
 
-A test data CSV file was uploaded into the landing zone bucket. This file has the same structure (table schema) as the data files that would be extracted from the data source and dumped here. However the purpose of uploading this “test data” file here is to allow the Glue crawler to infer the schema of the source data and create important schema metadata that would be used later in the Glue job ETL process. Access the test data CSV file [here](test_data/Telco_customer_churn.csv).
+A test data CSV file was uploaded into the landing zone bucket. This file has the same structure (table schema) as the data files that would be extracted from the data source and dumped here. 
+However the purpose of uploading this “test data” file here is to allow the Glue crawler to infer the schema of the source data and create important schema metadata that would be used later in the Glue job ETL process. 
+Access the test data CSV file [here](test_data/Telco_customer_churn.csv).
 
 ![img5](screenshots/img5.png)
 <br><br>
